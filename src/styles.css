@@ -234,6 +234,15 @@ ul.footer-actions li {
   font-weight: 400;
   font-style: normal;
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+ul.footer-actions li img {
+  width: 15px;
+  height: 15px;
 }
 
 .app-footer img {
